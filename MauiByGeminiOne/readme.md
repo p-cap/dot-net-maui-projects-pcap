@@ -42,9 +42,20 @@ namespace MauiByGeminiOne.Models
 ```
 xmlns:viewmodels="clr-namespace:MyAwesomeApp.ViewModels"
 ```
-- added 
+- added the `ContentPage.BindingContext`
 ```
-<ContentPage.BindingContext>
-        <viewmodels:BookViewModel />
+    <ContentPage.BindingContext>
+            <viewmodels:BookViewModel />
     </ContentPage.BindingContext>
 ```
+- `{Binding}` keyword in XAML is the "hook" that connects the visual elements to the data source
+
+
+### The 3-way handshake
+- `Text = {Binding CurrentBook.Title}`The Binding markup extension -> tell the XAML compiler don't treat the string as literal text. Instead, look into the `BindingContext` and find the property path called `CurrentBook.Title`
+  - The `BindingContext` -> exists on every MAUI control. It tells the control, "This is the object where you will find the data."
+  - The `PropertyChanged Signal`
+    - The View says: "I am bound to Title."
+    - The ViewModel changes the Title and fires the PropertyChanged event.
+    - The Binding Engine hears the event and tells the View: "Hey, the data changed! Update your text now."
+    
