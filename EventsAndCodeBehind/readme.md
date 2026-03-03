@@ -1,10 +1,10 @@
-### Data Binding Dermo
+### Events and Code-Behind
 
 
 #### SYNOPSIS
-To get a better understanding on how data binding works
+To get a better understanding on how events and code-behinds render data onto UI
 
-#### Events and Code-Behind
+#### FILES
 - WeatherService.cs
 	- created a `WeatherService` class
 	- declared 3 attributes
