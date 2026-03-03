@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="readme.md" />
+  </Folder>
+  <Project Path="DataBindingDemo.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
