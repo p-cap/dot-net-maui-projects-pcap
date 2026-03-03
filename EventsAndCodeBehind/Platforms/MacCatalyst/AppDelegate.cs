@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace DataBindingDemo
+namespace EventsAndCodeBehind
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

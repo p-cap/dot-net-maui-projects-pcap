@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace DataBindingDemo
+namespace EventsAndCodeBehind
 {
     public partial class App : Application
     {

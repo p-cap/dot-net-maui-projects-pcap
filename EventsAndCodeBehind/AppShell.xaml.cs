@@ -1,4 +1,4 @@
-﻿namespace DataBindingDemo
+﻿namespace EventsAndCodeBehind
 {
     public partial class AppShell : Shell
     {

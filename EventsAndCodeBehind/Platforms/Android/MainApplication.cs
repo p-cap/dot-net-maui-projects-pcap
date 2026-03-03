@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace DataBindingDemo
+namespace EventsAndCodeBehind
 {
     [Application]
     public class MainApplication : MauiApplication

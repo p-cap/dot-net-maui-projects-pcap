@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataBindingDemo.Services
+namespace EventsAndCodeBehind.Services
 {
     internal static class WeatherService
     {

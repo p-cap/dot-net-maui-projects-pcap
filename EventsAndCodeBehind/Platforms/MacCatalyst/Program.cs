@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace DataBindingDemo
+namespace EventsAndCodeBehind
 {
     public class Program
     {

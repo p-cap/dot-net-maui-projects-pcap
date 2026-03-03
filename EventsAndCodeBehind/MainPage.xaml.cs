@@ -1,6 +1,6 @@
-﻿using DataBindingDemo.Services;
+﻿using EventsAndCodeBehind.Services;
 
-namespace DataBindingDemo
+namespace EventsAndCodeBehind
 {
     public partial class MainPage : ContentPage
     {

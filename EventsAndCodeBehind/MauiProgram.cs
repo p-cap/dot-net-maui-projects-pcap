@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace DataBindingDemo
+namespace EventsAndCodeBehind
 {
     public static class MauiProgram
     {

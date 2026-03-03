@@ -2,7 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path="readme.md" />
   </Folder>
-  <Project Path="DataBindingDemo.csproj">
+  <Project Path="EventsAndCodeBehind.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
 </Solution>
